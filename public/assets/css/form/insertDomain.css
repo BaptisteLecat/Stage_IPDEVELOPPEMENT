@@ -1,0 +1,158 @@
+form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+h6 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #3f4254;
+}
+
+.form-client {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 25px auto 0px auto;
+}
+
+.form-domainName {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 25px auto 0px auto;
+}
+
+.domainName-input_container {
+  height: auto;
+  width: 100%;
+  display: flex;
+}
+
+.domainName-input_container input {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #3f4254;
+}
+
+.domainName-input_container input:enabled {
+  height: 20px;
+  width: 250px;
+  outline: none;
+  border: 1px solid #353535;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.domainName-input_container input:disabled {
+  height: 20px;
+  width: 80px;
+  outline: none;
+  border: 1px solid #353535;
+  border-radius: 3px;
+}
+
+.form-serverDNS {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto 0px auto;
+}
+
+.form-serverDNS input {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #3f4254;
+}
+
+.form-serverDNS input:enabled {
+  height: 20px;
+  width: 250px;
+  outline: none;
+  border: 1px solid #353535;
+  border-radius: 3px;
+}
+
+.form-manageDNS {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto 0px auto;
+}
+
+.form_checkbox {
+  margin-top: 5px;
+  width: 25px;
+  height: 24px;
+  position: relative;
+}
+.form_checkbox-visible {
+  border: 1px solid #3f4254;
+  width: 23px;
+  height: 22px;
+  background: #fff;
+  border-radius: 3px;
+}
+
+.form_checkbox input {
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  left: 50%;
+  top: 50%;
+  transform: translatex(-50%) translatey(-50%);
+  display: block;
+  cursor: pointer;
+  width: 25px;
+  height: 24px;
+  outline: none;
+}
+
+.form_checkbox input:checked + .form_checkbox-visible {
+  background-image: url(../../icons/tick_black.png);
+  background-repeat: no-repeat;
+  background-position: 3px 2px;
+  background-origin: padding-box;
+  background-size: 17px 19px;
+}
+
+.generate-field_container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto 0px auto;
+}
+
+select {
+  height: 32px;
+  width: 150px;
+  outline: none;
+  border: 1px solid #353535;
+  border-radius: 3px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #3f4254;
+  padding: 0px;
+}
+
+textarea:disabled {
+  height: 60px;
+  outline: none;
+  border-radius: 3px;
+  resize: none;
+}

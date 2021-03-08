@@ -1,0 +1,125 @@
+DO 07-01-2021 Completer la base de donnée avec les nouveaux attributs.
+DO 07-01-2021 Renommer en Anglais les attributs.
+DO 07-01-2021 Mettre à jour les Diagrammes: Class / MCD.
+
+DO 07-01-2021 DomainManager LoadFromClient, LoadFromDomainId, Update, Insert, Delete, Archive
+DO 07-01-2021 DNSRecordManager LoadFromDomain, LoadFromDNSRecordId, Update, Insert, Delete, Archive
+DO 07-01-2021 DNSFieldManager LoadDNSField
+
+DO 07-01-2021 Réaliser les test unitaire : ClientManager
+DO 07-01-2021 Réaliser les test unitaire : DomainManager
+DO 08-01-2021 Réaliser les test unitaire : DNSRecordManager
+DO 08-01-2021 Réaliser les test unitaire : DNSFieldManager
+
+DO 11-01-2021 Commenter l'ensemble des fonctions
+DO 11-01-2021 Développement FRONT : Maquette home page
+DO 11-01-2021 Mise en place des animations JAVASCRIPT: Edition / Suppression / Selection
+
+DO 12-01-2021 Modification de l'arborescence du projet
+DO 12-01-2021 Creation du controler HOME.php et liaison avec la vue home
+DO 12-01-2021 Dynamisation du code HTML home pour afficher les données de la base
+DO 12-01-2021 MODULE loadDNSField appelé en AJAX pour remplir la select des type de DNS
+DO 12-01-2021 MODULE updateDNSRecord appelé en AJAX pour modifier le type, le host et la value d'un DNS.
+
+DO 13-01-2021 Modification CSS select Type.
+DO 13-01-2021 MODULE deleteDNSRecord
+
+DO 18-01-2021 Amelioration et correction des problème d'affichage des date d'archivage.
+DO 18-01-2021 Correction de l'affichage JS qui n'était plus à jour par rapport au nouvel affichage.
+DO 18-01-2021 Refactorisation du code JS, séparation en plusieurs module, plusieurs fichiers.
+DO 18-01-2021 Module deleteDNSRecord
+DO 18-01-2021 Module RestoreDNSRecord
+DO 18-01-2021 Module Algorythme d'affichage du nombre de jour restant pour un DNS archivé.
+DO 18-01-2021 Module Domain Select
+DO 18-01-2021 Module Domain ManageDNS
+DO 18-01-2021 Correction annuler edition.
+
+DO 19-01-2021 Maquettage du container client
+DO 19-01-2021 Container de tri, par client ou par Domain
+
+DO 20-01-2021 Modification de la class client et des requetes
+DO 20-01-2021 Modification de la base de données et de la table domaine : clé étrangère client. llx_societe
+DO 20-01-2021 Passage Modèle MVC.
+DO 20-01-2021 Module clients PHP
+DO 20-01-2021 Module domaine PHP
+DO 20-01-2021 Ajout d'une barre de recherche
+
+DO 21-01-2021 Dynamiser l'affichage des clients.
+DO 21-01-2021 Correction Module DNS PHP
+DO 21-01-2021 Affichage des clients
+DO 21-01-2021 JAVASCRIPT pour dynamiser la selection des clients.
+DO 21-01-2021 Javascript affichage des DNS et domaines par rapport au client MODE Client.
+
+DO 22-01-2021 Correction du Javascript pour les DNS ainsi que les Domaines
+DO 22-01-2021 Javascript affichage des DNS et domaines par rapport au client MODE domaine.
+
+DO 26-01-2021 Mise en place d'une architecture permettant de gérer l'affichage des modal Insert UpdateDnsRecord
+DO 26-01-2021 Router permettant de rediriger vers la bonne modal via la fonction du Controller
+DO 26-01-2021 FormController class de gestion des différents Formulaire
+DO 26-01-2021 Affichage dynamique de la vue ModalInsertDNS
+
+DO 28-01-2021 Création de la classe insertDNS permettant la gestion de la saisie d'un DNS.
+DO 28-01-2021 Début du Javascript permettant l'animation du formulaire.
+DO 28-01-2021 Ajout des méthode __sleep et __wakeup sur le formController pour le serializé et le faire passer en JS pour ne pas le réinstancier.
+
+DO 29-01-2021 Verification de la syntaxe des champs de la modalInsertDns via des regex.
+DO 29-01-2021 Modification du router pour faire passer les data du formulaire et l'id du domain.
+DO 29-01-2021 Poursuite du Javascript de la modal, et notament le submit.
+DO 29-01-2021 Implémentation d'un dossier config permettant de définir les constantes : ici les constantes des messages d'erreurs du formulaire.
+
+DO 01-02-2021 Test unitaire : IPV4 -> champ type A
+DO 01-02-2021 Test unitaire : IPV6 -> champ type AAAA
+DO 01-02-2021 Test unitaire : nom DNS -> champ type CNAME
+DO 01-02-2021 Gestion des messages d'erreurs.
+DO 01-02-2021 Affichage du champs MX priority si sélectionné.
+DO 01-02-2021 Gestion de l'envoi en POST de la priority.
+
+DO 02-02-2021 Test unitaire :  Serveur de Mail -> champ type MX
+DO 02-02-2021 Verifier priority MX
+DO 02-02-2021 Formulaire d'ajout DNS envoie des infos à la DB.
+DO 02-02-2021 Formulaire d'ajout DNS doit récuperer le Domaine dans lequel on veut ajouter.
+DO 02-02-2021 Debut de la gestion des Erreurs dans le projet, avec l'exemple du formulaire d'ajout. TRY CATCH
+DO 02-02-2021 Correction d'un bug empechant la modification des DNS, ainsi que la suppression.
+DO 02-02-2021 Correction de l'affichage : suppression du module modification.
+DO 02-02-2021 Modification CSS afin d'améliorer le responsive.
+
+DO 03-02-2021 Début de l'affichage de la modal Domaine
+
+DO 04-02-2021 Creation de la classe de gestion du formulaire
+DO 04-02-2021 Gestion en JS de l'affichage et intéraction utilisateurs
+DO 04-02-2021 Regex de verification de la syntaxe
+
+DO 05-02-2021 Affichage de la liste des clients pour les associés à un domaine
+
+DO 08-02-2021 Affichage de la modalUpdateDomain
+DO 08-02-2021 Creation des fonctions de gestion de la Modification
+DO 08-02-2021 Modification du Javascript pour permettre de remplir les champs avec les anciennes informations.
+
+DO 09-02-2021 Creation du switcher entre les form update insertion
+DO 09-02-2021 Affichage du switcher
+DO 09-02-2021 Gestion de l'affichage des form sur les click du switcher
+DO 09-02-2021 Factorisation du code form_displayer.js
+
+DO 11-02-2021 Tentative de correction d'un bug d'affichage JAVASCRIPT
+DO 11-02-2021 Creation d'un algorythme permettant la saisie brut d'une zone DNS
+
+DO 12-02-2021 Creation de la classe insertDNSZone permettant l'insertion brut d'une zone
+DO 12-02-2021 HTML CSS de la modal insertDNSZone
+DO 12-02-2021 Mise en place du JS permettant l'affichage de la modal insertDNSZone
+DO 12-02-2021 Liaison de la modal au routeur et controlleur formulaire
+DO 12-02-2021 Mise en place du menu switcher DNSinsert et DNSinsertZone.
+DO 12-02-2021 Test de la nouvelle fonctionnalitée.
+
+TODO Mise à jour diagramme de classe
+
+
+
+TODO Selection via les checkbox pour la suppression DNS ASSOCIE.
+TODO Verification de l'insertion des données à l'update - Possibilité d'un héritage sur les class ModalDNS et ModalDomain, de ce fait les fonctions check passe en protected.
+TODO Suppression du module display - le transférer dans le module clients
+TODO Barre de recherche des clients - OPTIONNEL
+TODO Trier les clients par DNS et Ordre Alphabétique - Ceux qui ont des DNS en premiers
+TODO Panel de Gestion des types de DNS avec saisie d'un nouveau type suppression, et Modification
+TODO Retravailler l'algo d'insertion de DNS en Zone pour prendre en compte les DNS TXT avec des espaces multiples.
+TODO Corriger le probleme de Javascript qui permet de prévisualiser le champs généré - Lorsque l'on saisie une lettre elle n'est pas directement ajouter dans la textarea, et lorsque l'on colle un contenu idem.
+TODO Modifier la fonction qui genere les fichiers de zone - Modifier les tables pour récuperer les données dans la nouvelle structure créée.

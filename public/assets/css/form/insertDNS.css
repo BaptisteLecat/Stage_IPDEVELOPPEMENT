@@ -1,0 +1,144 @@
+form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+h6 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #3f4254;
+}
+
+.form-domain {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 25px auto 0px auto;
+}
+
+.domain-input_container {
+  height: auto;
+  width: 100%;
+  display: flex;
+}
+
+.domain-input_container input {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #3f4254;
+}
+
+.domain-input_container input:enabled {
+  height: 20px;
+  width: 250px;
+  outline: none;
+  border: 1px solid #353535;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.domain-input_container input:disabled {
+  height: 20px;
+  width: 80px;
+  outline: none;
+  border: 1px solid #353535;
+  border-radius: 3px;
+}
+
+.form-type {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto 0px auto;
+}
+
+select {
+  height: 32px;
+  width: 150px;
+  outline: none;
+  border: 1px solid #353535;
+  border-radius: 3px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #3f4254;
+  padding: 0px;
+}
+
+.form-priority {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /*margin: 20px auto 0px auto;*/
+}
+
+.form-priority_input {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #3f4254;
+  height: 20px;
+  width: 80px;
+  outline: none;
+  border: 1px solid #353535;
+  border-radius: 3px;
+}
+
+/*.form-priority input:enabled {
+
+}*/
+
+.form-target {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto 0px auto;
+}
+
+.form-target input {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #3f4254;
+}
+
+.form-target input:enabled {
+  height: 20px;
+  width: 250px;
+  outline: none;
+  border: 1px solid #353535;
+  border-radius: 3px;
+}
+
+.generate-field_container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto 0px auto;
+}
+
+textarea:disabled {
+  height: 60px;
+  outline: none;
+  border-radius: 3px;
+  resize: none;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #3f4254;
+}

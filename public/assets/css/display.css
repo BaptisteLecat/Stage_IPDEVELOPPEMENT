@@ -1,0 +1,94 @@
+.container_affichage {
+  background: #ffffff;
+  box-shadow: 1px 1px 7px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 30px 25px 66px 25px;
+  min-width: 300px;
+  /*margin: 15px 16.5px;*/
+  grid-row: 1;
+  grid-column: 1;
+  /*width: 26%;*/
+  height: auto;
+}
+
+.container_affichage h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #3f4254;
+}
+
+hr {
+  border-top: 1px solid #3f4254;
+  margin-top: 18px;
+  margin-bottom: 14px;
+}
+
+.affichage_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.affichage_content select {
+  max-width: 156px;
+  height: 30px;
+  background-color: #3699ff;
+  color: #fff;
+  box-shadow: none;
+  margin: 20px 0px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  outline: none;
+}
+
+.modeAffichage_container h5 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #3f4254;
+}
+
+.modeContent {
+  display: flex;
+  padding: 15px 0px;
+  width: 250px;
+}
+
+.modeButton {
+  border: 1px solid #3f4254;
+  background-color: #fff;
+  border-radius: 3px;
+  height: 30px;
+  width: 100px;
+  margin: auto;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  align-content: center;
+}
+
+.modeSelected{
+  background-color: #3699ff;
+  color: #fff;
+}
+
+.modeContent button:first-child {
+  margin: 0px;
+}
+
+@media only screen and (max-width: 1540px) {
+  .container_affichage {
+    grid-row: 1;
+    grid-column: 1;
+  }
+}
