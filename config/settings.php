@@ -3,10 +3,10 @@
 //
 //  CONFIGURATION DE LA CONNEXION A LA BASE DE DONNEE
 //
-define("HOST", "185.123.72.136");
-define("DBNAME", "doli-dev01");
-define("USER", "doli-dev01");
-define("PASSWORD", "Pij79UKuu9IAXsxH");
+define("HOST", "HOST");
+define("DBNAME", "DBNAME");
+define("USER", "USER");
+define("PASSWORD", "PASSWORD");
 
 //
 //  CONFIGURATION DE DOLIBARR

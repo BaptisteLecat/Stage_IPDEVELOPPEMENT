@@ -4,10 +4,7 @@ namespace App;
 
 //Conf of database.
 require_once(__DIR__.'/../config/settings.php');
-/*define("HOST", "185.123.72.136");
-define("DBNAME", "doli-dev01");
-define("USER", "doli-dev01");
-define("PASSWORD", "Pij79UKuu9IAXsxH");*/
+
 
 class PdoFactory
 {
